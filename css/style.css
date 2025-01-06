@@ -103,7 +103,7 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #787676;
+    background-color: #333333;
     box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
 }
 
@@ -365,5 +365,18 @@ img {
 
 
 /*color*/
+.text-red {
+    color: #ff6347;
+}
 
+.text-gray {
+    color: #a9a9a9;
+}
 
+.text-white {
+    color: #ffffff;
+}
+
+.text-blue {
+    color: #3535ff;
+}
