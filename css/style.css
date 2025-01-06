@@ -380,3 +380,27 @@ img {
 .text-blue {
     color: #3535ff;
 }
+
+
+/*ajustes de imagenes */
+
+.home-img {
+    display: flex;
+    justify-content: space-between; /* Esto asegura que las imágenes estén separadas */
+    align-items: center; /* Esto alinea las imágenes verticalmente en el centro */
+}
+
+.home-img img {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+.about-img {
+    display: flex;
+    justify-content: space-between; /* Esto asegura que las imágenes estén separadas */
+    align-items: center; /* Esto alinea las imágenes verticalmente en el centro */
+}
+.about-img img {
+    width: 150px; /* Ajusta el tamaño aquí sea necesario */
+    height: auto;
+}
